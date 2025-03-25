@@ -1,12 +1,56 @@
-<!DOCTYPE html>
-<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site GitHub Pages</title>
+    <title>Mon Site Vintage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">  <!-- Charger la police -->
+    <style>
+        body {
+            font-family: 'Lobster', cursive; /* Applique la police */
+            background-color: #f5e1e1; /* Rose pastel */
+            color: #3a3a3a; /* Texte gris foncé */
+            text-align: center; /* Centrer le texte */
+            animation: fadeIn 1s ease-out; /* Animation de fondu */
+        }
+
+        h1 {
+            color: #ff7f50; /* Corail */
+            font-size: 4rem;
+            letter-spacing: 3px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* Ombre du texte */
+        }
+
+        button {
+            background-color: #ff7f50; /* Corail */
+            color: white;
+            border: 2px solid #d1a35b; /* Bordure dorée */
+            border-radius: 10px; /* Coins arrondis */
+            padding: 10px 20px;
+            font-family: 'Lobster', cursive; /* Police du bouton */
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #d1a35b; /* Bordure dorée au survol */
+            cursor: pointer;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.5); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenue sur mon site GitHub Pages !</h1>
-    <p>Ce site est hébergé gratuitement sur GitHub.</p>
+    <h1>Bienvenue sur mon site rétro !</h1>
+    <p>Profite d'un design vintage avec des couleurs et des polices rétro !</p>
+    <button>Commencez ici</button>
 </body>
-</html>
+git add index.html
+git commit -m "Ajout du style rétro"
+git push
+body {
+    background: linear-gradient(to right, #ff7f50, #d1a35b); /* Dégradé corail à doré */
+}
+body {
+    background-image: repeating-linear-gradient(45deg, #f5e1e1 0px, #f5e1e1 20px, #ff7f50 20px, #ff7f50 40px); /* Rayures */
+}
